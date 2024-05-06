@@ -7,7 +7,8 @@ module.exports = {
   },
     extend: {
       colors:{
-        goldOrange:"FF5800"
+        goldOrange:"FF5800",
+        footerGray:"#333"
       }
     },
   },
