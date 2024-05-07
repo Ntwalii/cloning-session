@@ -689,6 +689,10 @@ video {
   width: 20rem;
 }
 
+.w-1\/2{
+  width: 50%;
+}
+
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -914,6 +918,11 @@ video {
     margin-right: 1.25rem;
   }
 
+  .lg\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   .lg\:mr-10{
     margin-right: 2.5rem;
   }
@@ -928,6 +937,10 @@ video {
 
   .lg\:hidden{
     display: none;
+  }
+
+  .lg\:h-full{
+    height: 100%;
   }
 
   .lg\:w-64{
@@ -950,6 +963,10 @@ video {
     width: 11rem;
   }
 
+  .lg\:w-1\/2{
+    width: 50%;
+  }
+
   .lg\:gap-5{
     gap: 1.25rem;
   }
@@ -968,6 +985,21 @@ video {
 
   .lg\:gap-8{
     gap: 2rem;
+  }
+
+  .lg\:object-contain{
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
+  .lg\:object-cover{
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .lg\:object-center{
+    -o-object-position: center;
+       object-position: center;
   }
 
   .lg\:p-10{
@@ -992,5 +1024,48 @@ video {
 
   .lg\:p-4{
     padding: 1rem;
+  }
+
+  .lg\:p-32{
+    padding: 8rem;
+  }
+
+  .lg\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .lg\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:px-3{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .lg\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:font-medium{
+    font-weight: 500;
   }
 }
